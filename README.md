@@ -1,5 +1,5 @@
 # Multimodal Growth Mindset Classification
-
+ 
 This repository contains the dataset metadata and deep learning codebase for our research on classifying **Growth Mindset** from structured video interviews.
 
 By leveraging a rigorous **sentence-level hierarchical modeling** approach and **multimodal sensor fusion** (Text, Audio, Facial Expressions, Heart Rate Variability, and Eye Movement), this project automatically classifies participants into distinct mindset categories based on **Dweck’s Implicit Theories of Intelligence**.
