@@ -1,0 +1,21 @@
+FiveFusionModel2_NoAtt(
+  (text_lstm): LSTM(771, 771, batch_first=True, bidirectional=True)
+  (audio_lstm): LSTM(193, 193, batch_first=True, bidirectional=True)
+  (face_lstm): LSTM(2048, 256, batch_first=True, bidirectional=True)
+  (hrv_lstm): LSTM(23, 23, batch_first=True, bidirectional=True)
+  (eye_lstm): LSTM(13, 13, batch_first=True, bidirectional=True)
+  (fc1): Linear(in_features=2512, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=2, bias=True)
+)
+batch_size: 1
+epochs: 50
+LR: 0.0001
+test_split( useShuffleSplit : False ): 0.25
+shuffle_dataset: True
+dataset_size: 658
+samples : [0, 0]
+dataset for each category: [0, 0]
+train data num: 526 
+test data num: 132
+----------
+

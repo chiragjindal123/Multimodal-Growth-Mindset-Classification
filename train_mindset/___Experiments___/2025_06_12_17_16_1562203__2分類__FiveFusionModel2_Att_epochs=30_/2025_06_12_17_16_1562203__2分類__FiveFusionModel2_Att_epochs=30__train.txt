@@ -1,0 +1,23 @@
+FiveFusionModel2_Att(
+  (text_lstm): LSTM(768, 768, bidirectional=True)
+  (audio_lstm): LSTM(193, 193, bidirectional=True)
+  (face_lstm): LSTM(2048, 256, bidirectional=True)
+  (hrv_lstm): LSTM(23, 23, bidirectional=True)
+  (eye_lstm): LSTM(7, 7, bidirectional=True)
+  (tanh1): Tanh()
+  (tanh2): Tanh()
+  (fc1): Linear(in_features=2494, out_features=64, bias=True)
+  (fc): Linear(in_features=64, out_features=2, bias=True)
+)
+batch_size: 1
+epochs: 30
+LR: 0.0001
+test_split( useShuffleSplit : False ): 0.25
+shuffle_dataset: True
+dataset_size: 98
+samples : [5, 93]
+dataset for each category: [5, 93]
+train data num: 78 
+test data num: 20
+----------
+

@@ -1,0 +1,729 @@
+FiveFusionModel2_Att(
+  (text_lstm): LSTM(771, 771, bidirectional=True)
+  (audio_lstm): LSTM(193, 193, bidirectional=True)
+  (face_lstm): LSTM(2048, 256, bidirectional=True)
+  (hrv_lstm): LSTM(23, 23, bidirectional=True)
+  (eye_lstm): LSTM(13, 13, bidirectional=True)
+  (tanh1): Tanh()
+  (tanh2): Tanh()
+  (fc1): Linear(in_features=2512, out_features=64, bias=True)
+  (fc): Linear(in_features=64, out_features=2, bias=True)
+)
+batch_size: 1
+epochs: 50
+LR: 0.0001
+test_split( useShuffleSplit : False ): 0.25
+shuffle_dataset: True
+dataset_size: 291
+samples : [5, 38]
+dataset for each category: [32, 259]
+train data num: 232 
+test data num: 59
+----------
+
+----------
+Epoch [1/50], Loss: 0.3854,             Accuracy: 0.8836
+[[  0  26]
+ [  1 205]]
+----------
+
+----------
+1/50 | Test Loss: 0.3307
+[[ 0  6]
+ [ 0 53]]
+1/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [2/50], Loss: 0.3305,             Accuracy: 0.8879
+[[  0  26]
+ [  0 206]]
+----------
+
+----------
+2/50 | Test Loss: 0.3263
+[[ 0  6]
+ [ 0 53]]
+2/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [3/50], Loss: 0.2998,             Accuracy: 0.8879
+[[  0  26]
+ [  0 206]]
+----------
+
+----------
+3/50 | Test Loss: 0.3114
+[[ 0  6]
+ [ 0 53]]
+3/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [4/50], Loss: 0.2604,             Accuracy: 0.8922
+[[  1  25]
+ [  0 206]]
+----------
+
+----------
+4/50 | Test Loss: 0.3690
+[[ 0  6]
+ [ 0 53]]
+4/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [5/50], Loss: 0.2605,             Accuracy: 0.8879
+[[  0  26]
+ [  0 206]]
+----------
+
+----------
+5/50 | Test Loss: 0.2885
+[[ 0  6]
+ [ 0 53]]
+5/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [6/50], Loss: 0.1888,             Accuracy: 0.9095
+[[  5  21]
+ [  0 206]]
+----------
+
+----------
+6/50 | Test Loss: 0.2720
+[[ 0  6]
+ [ 0 53]]
+6/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [7/50], Loss: 0.1438,             Accuracy: 0.9440
+[[ 13  13]
+ [  0 206]]
+----------
+
+----------
+7/50 | Test Loss: 0.3014
+[[ 0  6]
+ [ 0 53]]
+7/50 | Test Accuracy: 0.90, F1-score: 0.47, Precision: 0.45, Recall: 0.50
+----------
+
+----------
+Epoch [8/50], Loss: 0.1180,             Accuracy: 0.9698
+[[ 19   7]
+ [  0 206]]
+----------
+
+----------
+8/50 | Test Loss: 0.2305
+[[ 1  5]
+ [ 0 53]]
+8/50 | Test Accuracy: 0.92, F1-score: 0.62, Precision: 0.96, Recall: 0.58
+----------
+
+----------
+Epoch [9/50], Loss: 0.0864,             Accuracy: 0.9784
+[[ 21   5]
+ [  0 206]]
+----------
+
+----------
+9/50 | Test Loss: 0.2268
+[[ 2  4]
+ [ 1 52]]
+9/50 | Test Accuracy: 0.92, F1-score: 0.70, Precision: 0.80, Recall: 0.66
+----------
+
+----------
+Epoch [10/50], Loss: 0.0624,             Accuracy: 0.9828
+[[ 23   3]
+ [  1 205]]
+----------
+
+----------
+10/50 | Test Loss: 0.1935
+[[ 1  5]
+ [ 1 52]]
+10/50 | Test Accuracy: 0.90, F1-score: 0.60, Precision: 0.71, Recall: 0.57
+----------
+
+----------
+Epoch [11/50], Loss: 0.0425,             Accuracy: 0.9914
+[[ 24   2]
+ [  0 206]]
+----------
+
+----------
+11/50 | Test Loss: 0.1904
+[[ 1  5]
+ [ 0 53]]
+11/50 | Test Accuracy: 0.92, F1-score: 0.62, Precision: 0.96, Recall: 0.58
+----------
+
+----------
+Epoch [12/50], Loss: 0.0385,             Accuracy: 0.9914
+[[ 24   2]
+ [  0 206]]
+----------
+
+----------
+12/50 | Test Loss: 0.2605
+[[ 1  5]
+ [ 0 53]]
+12/50 | Test Accuracy: 0.92, F1-score: 0.62, Precision: 0.96, Recall: 0.58
+----------
+
+----------
+Epoch [13/50], Loss: 0.0443,             Accuracy: 0.9871
+[[ 23   3]
+ [  0 206]]
+----------
+
+----------
+13/50 | Test Loss: 0.3662
+[[ 6  0]
+ [ 9 44]]
+13/50 | Test Accuracy: 0.85, F1-score: 0.74, Precision: 0.70, Recall: 0.92
+----------
+
+----------
+Epoch [14/50], Loss: 0.0263,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+14/50 | Test Loss: 0.1294
+[[ 2  4]
+ [ 0 53]]
+14/50 | Test Accuracy: 0.93, F1-score: 0.73, Precision: 0.96, Recall: 0.67
+----------
+
+----------
+Epoch [15/50], Loss: 0.0255,             Accuracy: 0.9957
+[[ 26   0]
+ [  1 205]]
+----------
+
+----------
+15/50 | Test Loss: 0.1057
+[[ 4  2]
+ [ 0 53]]
+15/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [16/50], Loss: 0.0202,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+16/50 | Test Loss: 0.1038
+[[ 4  2]
+ [ 0 53]]
+16/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [17/50], Loss: 0.0140,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+17/50 | Test Loss: 0.1257
+[[ 4  2]
+ [ 0 53]]
+17/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [18/50], Loss: 0.0222,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+18/50 | Test Loss: 0.1146
+[[ 3  3]
+ [ 0 53]]
+18/50 | Test Accuracy: 0.95, F1-score: 0.82, Precision: 0.97, Recall: 0.75
+----------
+
+----------
+Epoch [19/50], Loss: 0.0209,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+19/50 | Test Loss: 0.0926
+[[ 4  2]
+ [ 0 53]]
+19/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [20/50], Loss: 0.0336,             Accuracy: 0.9914
+[[ 24   2]
+ [  0 206]]
+----------
+
+----------
+20/50 | Test Loss: 0.0999
+[[ 4  2]
+ [ 0 53]]
+20/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [21/50], Loss: 0.0141,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+21/50 | Test Loss: 0.0793
+[[ 4  2]
+ [ 0 53]]
+21/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [22/50], Loss: 0.0124,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+22/50 | Test Loss: 0.0808
+[[ 4  2]
+ [ 0 53]]
+22/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [23/50], Loss: 0.0147,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+23/50 | Test Loss: 0.0596
+[[ 5  1]
+ [ 0 53]]
+23/50 | Test Accuracy: 0.98, F1-score: 0.95, Precision: 0.99, Recall: 0.92
+----------
+
+----------
+Epoch [24/50], Loss: 0.0099,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+24/50 | Test Loss: 0.0616
+[[ 4  2]
+ [ 0 53]]
+24/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [25/50], Loss: 0.0101,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+25/50 | Test Loss: 0.0392
+[[ 6  0]
+ [ 0 53]]
+25/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [26/50], Loss: 0.0132,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+26/50 | Test Loss: 0.0675
+[[ 6  0]
+ [ 1 52]]
+26/50 | Test Accuracy: 0.98, F1-score: 0.96, Precision: 0.93, Recall: 0.99
+----------
+
+----------
+Epoch [27/50], Loss: 0.0111,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+27/50 | Test Loss: 0.0417
+[[ 5  1]
+ [ 0 53]]
+27/50 | Test Accuracy: 0.98, F1-score: 0.95, Precision: 0.99, Recall: 0.92
+----------
+
+----------
+Epoch [28/50], Loss: 0.0135,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+28/50 | Test Loss: 0.1935
+[[ 1  5]
+ [ 0 53]]
+28/50 | Test Accuracy: 0.92, F1-score: 0.62, Precision: 0.96, Recall: 0.58
+----------
+
+----------
+Epoch [29/50], Loss: 0.0147,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+29/50 | Test Loss: 0.0506
+[[ 4  2]
+ [ 0 53]]
+29/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [30/50], Loss: 0.0147,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+30/50 | Test Loss: 0.0566
+[[ 5  1]
+ [ 0 53]]
+30/50 | Test Accuracy: 0.98, F1-score: 0.95, Precision: 0.99, Recall: 0.92
+----------
+
+----------
+Epoch [31/50], Loss: 0.0126,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+31/50 | Test Loss: 0.0348
+[[ 6  0]
+ [ 0 53]]
+31/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [32/50], Loss: 0.0097,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+32/50 | Test Loss: 0.0871
+[[ 4  2]
+ [ 0 53]]
+32/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [33/50], Loss: 0.0115,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+33/50 | Test Loss: 0.0610
+[[ 6  0]
+ [ 1 52]]
+33/50 | Test Accuracy: 0.98, F1-score: 0.96, Precision: 0.93, Recall: 0.99
+----------
+
+----------
+Epoch [34/50], Loss: 0.0252,             Accuracy: 0.9914
+[[ 24   2]
+ [  0 206]]
+----------
+
+----------
+34/50 | Test Loss: 0.0545
+[[ 4  2]
+ [ 0 53]]
+34/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [35/50], Loss: 0.0088,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+35/50 | Test Loss: 0.0328
+[[ 6  0]
+ [ 0 53]]
+35/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [36/50], Loss: 0.0109,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+36/50 | Test Loss: 0.0359
+[[ 6  0]
+ [ 0 53]]
+36/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [37/50], Loss: 0.0139,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+37/50 | Test Loss: 0.1207
+[[ 4  2]
+ [ 0 53]]
+37/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [38/50], Loss: 0.0125,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+38/50 | Test Loss: 0.0396
+[[ 5  1]
+ [ 0 53]]
+38/50 | Test Accuracy: 0.98, F1-score: 0.95, Precision: 0.99, Recall: 0.92
+----------
+
+----------
+Epoch [39/50], Loss: 0.0100,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+39/50 | Test Loss: 0.0571
+[[ 4  2]
+ [ 0 53]]
+39/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [40/50], Loss: 0.0144,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+40/50 | Test Loss: 0.1035
+[[ 6  0]
+ [ 2 51]]
+40/50 | Test Accuracy: 0.97, F1-score: 0.92, Precision: 0.88, Recall: 0.98
+----------
+
+----------
+Epoch [41/50], Loss: 0.0096,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+41/50 | Test Loss: 0.0468
+[[ 6  0]
+ [ 1 52]]
+41/50 | Test Accuracy: 0.98, F1-score: 0.96, Precision: 0.93, Recall: 0.99
+----------
+
+----------
+Epoch [42/50], Loss: 0.0315,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+42/50 | Test Loss: 0.0839
+[[ 6  0]
+ [ 1 52]]
+42/50 | Test Accuracy: 0.98, F1-score: 0.96, Precision: 0.93, Recall: 0.99
+----------
+
+----------
+Epoch [43/50], Loss: 0.0077,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+43/50 | Test Loss: 0.0352
+[[ 6  0]
+ [ 0 53]]
+43/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [44/50], Loss: 0.0088,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+44/50 | Test Loss: 0.0572
+[[ 4  2]
+ [ 0 53]]
+44/50 | Test Accuracy: 0.97, F1-score: 0.89, Precision: 0.98, Recall: 0.83
+----------
+
+----------
+Epoch [45/50], Loss: 0.0112,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+45/50 | Test Loss: 0.1261
+[[ 6  0]
+ [ 4 49]]
+45/50 | Test Accuracy: 0.93, F1-score: 0.86, Precision: 0.80, Recall: 0.96
+----------
+
+----------
+Epoch [46/50], Loss: 0.0097,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+46/50 | Test Loss: 0.0424
+[[ 5  1]
+ [ 0 53]]
+46/50 | Test Accuracy: 0.98, F1-score: 0.95, Precision: 0.99, Recall: 0.92
+----------
+
+----------
+Epoch [47/50], Loss: 0.0182,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+47/50 | Test Loss: 0.0657
+[[ 6  0]
+ [ 2 51]]
+47/50 | Test Accuracy: 0.97, F1-score: 0.92, Precision: 0.88, Recall: 0.98
+----------
+
+----------
+Epoch [48/50], Loss: 0.0056,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+48/50 | Test Loss: 0.0418
+[[ 6  0]
+ [ 0 53]]
+48/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [49/50], Loss: 0.0124,             Accuracy: 1.0000
+[[ 26   0]
+ [  0 206]]
+----------
+
+----------
+49/50 | Test Loss: 0.0344
+[[ 6  0]
+ [ 0 53]]
+49/50 | Test Accuracy: 1.00, F1-score: 1.00, Precision: 1.00, Recall: 1.00
+----------
+
+----------
+Epoch [50/50], Loss: 0.0130,             Accuracy: 0.9957
+[[ 25   1]
+ [  0 206]]
+----------
+
+----------
+50/50 | Test Loss: 0.1172
+[[ 2  4]
+ [ 0 53]]
+50/50 | Test Accuracy: 0.93, F1-score: 0.73, Precision: 0.96, Recall: 0.67
+----------
+
+----------
+FiveFusionModel2_Att
+0.9
+0.9
+0.9
+0.9
+0.9
+0.9
+0.9
+0.92
+0.92
+0.9
+0.92
+0.92
+0.85
+0.93
+0.97
+0.97
+0.97
+0.95
+0.97
+0.97
+0.97
+0.97
+0.98
+0.97
+1.0
+0.98
+0.98
+0.92
+0.97
+0.98
+1.0
+0.97
+0.98
+0.97
+1.0
+1.0
+0.97
+0.98
+0.97
+0.97
+0.98
+0.98
+1.0
+0.97
+0.93
+0.98
+0.97
+1.0
+1.0
+0.93
+[[ 25   1]
+ [  0 206]]
+----------
+
