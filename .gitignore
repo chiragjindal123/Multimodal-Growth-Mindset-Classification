@@ -16,3 +16,14 @@ __pycache__/
 *.pyc
 .vscode/
 .venv/
+# ML models / outputs
+*.npz
+
+# experiments
+
+# datasets
+
+# system
+__pycache__/
+*.pyc
+.vscode/
