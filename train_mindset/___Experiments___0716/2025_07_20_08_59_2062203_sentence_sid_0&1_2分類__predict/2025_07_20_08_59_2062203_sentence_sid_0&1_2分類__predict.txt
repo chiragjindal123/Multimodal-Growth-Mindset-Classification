@@ -1,0 +1,6 @@
+----------
+[[15  1]
+ [ 3 38]]
+Predict Accuracy: 0.93, F1-score: 0.92, Precision: 0.90, Recall: 0.93
+----------
+

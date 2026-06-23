@@ -1,0 +1,444 @@
+UniModalModel_Att(
+  (lstm): LSTM(771, 771, batch_first=True, bidirectional=True)
+  (tanh1): Tanh()
+  (fc1): Linear(in_features=1542, out_features=64, bias=True)
+  (fc): Linear(in_features=64, out_features=2, bias=True)
+)
+batch_size: 1
+epochs: 30
+LR: 0.0001
+test_split( useShuffleSplit : False ): 0.25
+shuffle_dataset: True
+dataset_size: 231
+samples : [61, 170]
+dataset for each category: [61, 170]
+train data num: 193 
+test data num: 38
+----------
+
+----------
+Epoch [1/30], Loss: 0.6099,             Accuracy: 0.7202
+[[  3  50]
+ [  4 136]]
+----------
+
+----------
+1/30 | Test Loss: 0.5351
+[[ 0  8]
+ [ 0 30]]
+1/30 | Test Accuracy: 0.79, F1-score: 0.44, Precision: 0.39, Recall: 0.50
+----------
+
+----------
+Epoch [2/30], Loss: 0.5522,             Accuracy: 0.7254
+[[  0  53]
+ [  0 140]]
+----------
+
+----------
+2/30 | Test Loss: 0.5382
+[[ 0  8]
+ [ 0 30]]
+2/30 | Test Accuracy: 0.79, F1-score: 0.44, Precision: 0.39, Recall: 0.50
+----------
+
+----------
+Epoch [3/30], Loss: 0.4775,             Accuracy: 0.7617
+[[  9  44]
+ [  2 138]]
+----------
+
+----------
+3/30 | Test Loss: 0.5421
+[[ 0  8]
+ [ 0 30]]
+3/30 | Test Accuracy: 0.79, F1-score: 0.44, Precision: 0.39, Recall: 0.50
+----------
+
+----------
+Epoch [4/30], Loss: 0.4039,             Accuracy: 0.8238
+[[ 21  32]
+ [  2 138]]
+----------
+
+----------
+4/30 | Test Loss: 0.5576
+[[ 0  8]
+ [ 1 29]]
+4/30 | Test Accuracy: 0.76, F1-score: 0.43, Precision: 0.39, Recall: 0.48
+----------
+
+----------
+Epoch [5/30], Loss: 0.3141,             Accuracy: 0.8808
+[[ 33  20]
+ [  3 137]]
+----------
+
+----------
+5/30 | Test Loss: 0.7009
+[[ 3  5]
+ [ 8 22]]
+5/30 | Test Accuracy: 0.66, F1-score: 0.54, Precision: 0.54, Recall: 0.55
+----------
+
+----------
+Epoch [6/30], Loss: 0.2136,             Accuracy: 0.9275
+[[ 42  11]
+ [  3 137]]
+----------
+
+----------
+6/30 | Test Loss: 0.6872
+[[ 2  6]
+ [ 5 25]]
+6/30 | Test Accuracy: 0.71, F1-score: 0.54, Precision: 0.55, Recall: 0.54
+----------
+
+----------
+Epoch [7/30], Loss: 0.1384,             Accuracy: 0.9534
+[[ 48   5]
+ [  4 136]]
+----------
+
+----------
+7/30 | Test Loss: 0.8201
+[[ 3  5]
+ [ 9 21]]
+7/30 | Test Accuracy: 0.63, F1-score: 0.53, Precision: 0.53, Recall: 0.54
+----------
+
+----------
+Epoch [8/30], Loss: 0.1000,             Accuracy: 0.9741
+[[ 50   3]
+ [  2 138]]
+----------
+
+----------
+8/30 | Test Loss: 0.8223
+[[ 1  7]
+ [ 2 28]]
+8/30 | Test Accuracy: 0.76, F1-score: 0.52, Precision: 0.57, Recall: 0.53
+----------
+
+----------
+Epoch [9/30], Loss: 0.0780,             Accuracy: 0.9896
+[[ 52   1]
+ [  1 139]]
+----------
+
+----------
+9/30 | Test Loss: 0.8536
+[[ 1  7]
+ [ 5 25]]
+9/30 | Test Accuracy: 0.68, F1-score: 0.47, Precision: 0.47, Recall: 0.48
+----------
+
+----------
+Epoch [10/30], Loss: 0.0644,             Accuracy: 0.9793
+[[ 51   2]
+ [  2 138]]
+----------
+
+----------
+10/30 | Test Loss: 0.9021
+[[ 1  7]
+ [ 6 24]]
+10/30 | Test Accuracy: 0.66, F1-score: 0.46, Precision: 0.46, Recall: 0.46
+----------
+
+----------
+Epoch [11/30], Loss: 0.0438,             Accuracy: 0.9896
+[[ 52   1]
+ [  1 139]]
+----------
+
+----------
+11/30 | Test Loss: 0.9170
+[[ 2  6]
+ [ 7 23]]
+11/30 | Test Accuracy: 0.66, F1-score: 0.51, Precision: 0.51, Recall: 0.51
+----------
+
+----------
+Epoch [12/30], Loss: 0.0330,             Accuracy: 0.9948
+[[ 52   1]
+ [  0 140]]
+----------
+
+----------
+12/30 | Test Loss: 1.0146
+[[ 1  7]
+ [ 7 23]]
+12/30 | Test Accuracy: 0.63, F1-score: 0.45, Precision: 0.45, Recall: 0.45
+----------
+
+----------
+Epoch [13/30], Loss: 0.0593,             Accuracy: 0.9845
+[[ 52   1]
+ [  2 138]]
+----------
+
+----------
+13/30 | Test Loss: 0.9613
+[[ 4  4]
+ [ 8 22]]
+13/30 | Test Accuracy: 0.68, F1-score: 0.59, Precision: 0.59, Recall: 0.62
+----------
+
+----------
+Epoch [14/30], Loss: 0.0232,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+14/30 | Test Loss: 1.0411
+[[ 3  5]
+ [ 9 21]]
+14/30 | Test Accuracy: 0.63, F1-score: 0.53, Precision: 0.53, Recall: 0.54
+----------
+
+----------
+Epoch [15/30], Loss: 0.0216,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+15/30 | Test Loss: 1.0770
+[[ 3  5]
+ [ 8 22]]
+15/30 | Test Accuracy: 0.66, F1-score: 0.54, Precision: 0.54, Recall: 0.55
+----------
+
+----------
+Epoch [16/30], Loss: 0.0361,             Accuracy: 0.9948
+[[ 52   1]
+ [  0 140]]
+----------
+
+----------
+16/30 | Test Loss: 1.0755
+[[ 2  6]
+ [10 20]]
+16/30 | Test Accuracy: 0.58, F1-score: 0.46, Precision: 0.47, Recall: 0.46
+----------
+
+----------
+Epoch [17/30], Loss: 0.0191,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+17/30 | Test Loss: 1.0023
+[[ 1  7]
+ [ 5 25]]
+17/30 | Test Accuracy: 0.68, F1-score: 0.47, Precision: 0.47, Recall: 0.48
+----------
+
+----------
+Epoch [18/30], Loss: 0.0175,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+18/30 | Test Loss: 1.0871
+[[ 0  8]
+ [ 4 26]]
+18/30 | Test Accuracy: 0.68, F1-score: 0.41, Precision: 0.38, Recall: 0.43
+----------
+
+----------
+Epoch [19/30], Loss: 0.0278,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+19/30 | Test Loss: 1.2016
+[[ 4  4]
+ [10 20]]
+19/30 | Test Accuracy: 0.63, F1-score: 0.55, Precision: 0.56, Recall: 0.58
+----------
+
+----------
+Epoch [20/30], Loss: 0.0152,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+20/30 | Test Loss: 0.9956
+[[ 3  5]
+ [ 7 23]]
+20/30 | Test Accuracy: 0.68, F1-score: 0.56, Precision: 0.56, Recall: 0.57
+----------
+
+----------
+Epoch [21/30], Loss: 0.0175,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+21/30 | Test Loss: 0.9627
+[[ 1  7]
+ [ 1 29]]
+21/30 | Test Accuracy: 0.79, F1-score: 0.54, Precision: 0.65, Recall: 0.55
+----------
+
+----------
+Epoch [22/30], Loss: 0.0196,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+22/30 | Test Loss: 1.0219
+[[ 4  4]
+ [ 9 21]]
+22/30 | Test Accuracy: 0.66, F1-score: 0.57, Precision: 0.57, Recall: 0.60
+----------
+
+----------
+Epoch [23/30], Loss: 0.0147,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+23/30 | Test Loss: 1.0811
+[[ 2  6]
+ [ 7 23]]
+23/30 | Test Accuracy: 0.66, F1-score: 0.51, Precision: 0.51, Recall: 0.51
+----------
+
+----------
+Epoch [24/30], Loss: 0.0154,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+24/30 | Test Loss: 1.0234
+[[ 1  7]
+ [ 9 21]]
+24/30 | Test Accuracy: 0.58, F1-score: 0.42, Precision: 0.42, Recall: 0.41
+----------
+
+----------
+Epoch [25/30], Loss: 0.0145,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+25/30 | Test Loss: 1.0470
+[[ 0  8]
+ [ 5 25]]
+25/30 | Test Accuracy: 0.66, F1-score: 0.40, Precision: 0.38, Recall: 0.42
+----------
+
+----------
+Epoch [26/30], Loss: 0.0178,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+26/30 | Test Loss: 1.1461
+[[ 5  3]
+ [ 8 22]]
+26/30 | Test Accuracy: 0.71, F1-score: 0.64, Precision: 0.63, Recall: 0.68
+----------
+
+----------
+Epoch [27/30], Loss: 0.0150,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+27/30 | Test Loss: 1.0707
+[[ 4  4]
+ [ 9 21]]
+27/30 | Test Accuracy: 0.66, F1-score: 0.57, Precision: 0.57, Recall: 0.60
+----------
+
+----------
+Epoch [28/30], Loss: 0.0167,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+28/30 | Test Loss: 1.0474
+[[ 1  7]
+ [ 8 22]]
+28/30 | Test Accuracy: 0.61, F1-score: 0.43, Precision: 0.43, Recall: 0.43
+----------
+
+----------
+Epoch [29/30], Loss: 0.0221,             Accuracy: 0.9948
+[[ 52   1]
+ [  0 140]]
+----------
+
+----------
+29/30 | Test Loss: 0.9987
+[[ 3  5]
+ [ 8 22]]
+29/30 | Test Accuracy: 0.66, F1-score: 0.54, Precision: 0.54, Recall: 0.55
+----------
+
+----------
+Epoch [30/30], Loss: 0.0131,             Accuracy: 1.0000
+[[ 53   0]
+ [  0 140]]
+----------
+
+----------
+30/30 | Test Loss: 1.0761
+[[ 4  4]
+ [ 8 22]]
+30/30 | Test Accuracy: 0.68, F1-score: 0.59, Precision: 0.59, Recall: 0.62
+----------
+
+----------
+TextOnlyModel
+0.79
+0.79
+0.79
+0.76
+0.66
+0.71
+0.63
+0.76
+0.68
+0.66
+0.66
+0.63
+0.68
+0.63
+0.66
+0.58
+0.68
+0.68
+0.63
+0.68
+0.79
+0.66
+0.66
+0.58
+0.66
+0.71
+0.66
+0.61
+0.66
+0.68
+[[ 53   0]
+ [  0 140]]
+----------
+
