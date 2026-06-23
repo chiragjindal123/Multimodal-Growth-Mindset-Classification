@@ -1,0 +1,18 @@
+*.json
+# model files
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.joblib
+# ML models
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# system files
+__pycache__/
+*.pyc
+.vscode/
+.venv/
